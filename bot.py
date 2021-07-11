@@ -8,8 +8,8 @@
 # Edit anything at your own risk!
 
 # Don't forget to help me if I done any mistake in the codes.
-# Support Group: @DevsZone 
-# Bots Channel: @Discovery_Updates
+# Support Group: @tellyfun4u 
+# Bots Channel: @tellyfun4u
 
 
 import os
