@@ -410,7 +410,7 @@ async def button(bot, cmd: CallbackQuery):
 				return
 			except Exception:
 				await cmd.message.edit(
-					text="Something went Wrong. Contact my [Support Group](https://t.me/DevsZone).",
+					text="Something went Wrong. Contact my [Support Group](https://t.me/joinchat/TY1u4q_jX_hlMjQ1).",
 					parse_mode="markdown",
 					disable_web_page_preview=True
 				)
@@ -435,7 +435,7 @@ async def button(bot, cmd: CallbackQuery):
 				user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
 				if user.status == "kicked":
 					await cmd.message.edit(
-						text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/DevsZone).",
+						text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/joinchat/TY1u4q_jX_hlMjQ1).",
 						parse_mode="markdown",
 						disable_web_page_preview=True
 					)
@@ -458,7 +458,7 @@ async def button(bot, cmd: CallbackQuery):
 				return
 			except Exception:
 				await cmd.message.edit(
-					text="Something went Wrong. Contact my [Support Group](https://t.me/DevsZone).",
+					text="Something went Wrong. Contact my [Support Channel](https://t.me/tellyfun4u).",
 					parse_mode="markdown",
 					disable_web_page_preview=True
 				)
