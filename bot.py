@@ -8,8 +8,8 @@
 # Edit anything at your own risk!
 
 # Don't forget to help me if I done any mistake in the codes.
-# Support Group: @linux_repo 
-# Bots Channel: @Discovery_Updates
+# Support Group: @Tellybotz_support 
+# Bots Channel: @Tellybots
 
 
 import os
@@ -51,7 +51,7 @@ async def HelpWatermark(bot, cmd):
 	await cmd.reply_text(
 		text=Config.USAGE_WATERMARK_ADDER,
 		parse_mode="Markdown",
-		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/Royal_Devendra"), InlineKeyboardButton("💬Support Group", url="https://t.me/SunShineBotsChat")], [InlineKeyboardButton("🤖Bots Channel", url="https://t.me/SunShineBots")]]),
+		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/tellybots"), InlineKeyboardButton("💬Support Group", url="https://t.me/tellybotz_support")], [InlineKeyboardButton("🤖Bots Channel", url="https://t.me/tellybots")]]),
 		disable_web_page_preview=True
 	)
 
@@ -337,7 +337,7 @@ async def VidWatermarkAdder(bot, cmd):
 				await logs_msg.edit(text_edit, parse_mode="Markdown", disable_web_page_preview=True)
 		except Exception as e:
 			print(f"Error: {e}")
-			await editable.edit("Sorry, Something went wrong!\n\nCan't Upload to Streamtape. You can report at [💬Support Group](https://t.me/SunShineBotsChat).")
+			await editable.edit("Sorry, Something went wrong!\n\nCan't Upload to Streamtape. You can report at [💬Support Group](https://t.me/tellybotz_support).")
 			await logs_msg.edit(f"Got Error While Uploading to Streamtape!\n\nError: {e}")
 		await delete_all()
 		return
@@ -423,7 +423,7 @@ async def button(bot, cmd: CallbackQuery):
 				user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
 				if user.status == "kicked":
 					await cmd.message.edit(
-						text="Sorry Sir, You are Banned to use me. Contact my [💬Support Group](https://t.me/SunShineBotsChat).",
+						text="Sorry Sir, You are Banned to use me. Contact my [💬Support Group](https://t.me/tellybotz_support).",
 						parse_mode="markdown",
 						disable_web_page_preview=True
 					)
