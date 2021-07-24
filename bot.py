@@ -256,7 +256,7 @@ async def VidWatermarkAdder(bot, cmd):
 		duration = metadata.get('duration').seconds
 	the_media_file_name = os.path.basename(the_media)
 	main_file_name = os.path.splitext(the_media_file_name)[0]
-	output_vid = main_file_name + "_[" + str(cmd.from_user.id) + "]_[" + str(time.time()) + "]_[@Royal_Devendra]" + ".mp4"
+	output_vid = main_file_name + "_[" + str(cmd.from_user.id) + "]_[" + str(time.time()) + "]_[@Tellybots]" + ".mp4"
 	progress = Config.DOWN_PATH + "/WatermarkAdder/" + str(cmd.from_user.id) + "/progress.txt"
 	try:
 		# WOW! Nice XD
