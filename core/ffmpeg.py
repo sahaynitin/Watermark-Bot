@@ -8,8 +8,8 @@
 # Edit anything at your own risk!
 
 # Don't forget to help me if I done any mistake in the codes.
-# Support Group: @tellybotz_support 
-# Bots Channel: @tellybots
+# Support Group: @tellybots_support 
+# Bots Channel: @tellybots_4u
 
 import os
 import math
